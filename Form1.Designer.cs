@@ -35,10 +35,10 @@
             label5 = new Label();
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
-            pictureBox3 = new PictureBox();
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
+            pictureBox3 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -105,33 +105,23 @@
             pictureBox1.Location = new Point(300, 39);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(313, 424);
-            pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 5;
             pictureBox1.TabStop = false;
             // 
             // pictureBox2
             // 
             pictureBox2.Image = Properties.Resources.photo_12_2025_04_03_22_09_58;
-            pictureBox2.Location = new Point(300, 35);
+            pictureBox2.Location = new Point(300, 39);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(313, 428);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 6;
             pictureBox2.TabStop = false;
             // 
-            // pictureBox3
-            // 
-            pictureBox3.Image = Properties.Resources.photo_9_2025_04_03_22_09_58;
-            pictureBox3.Location = new Point(300, 35);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(313, 424);
-            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox3.TabIndex = 7;
-            pictureBox3.TabStop = false;
-            // 
             // button1
             // 
-            button1.Location = new Point(52, 287);
+            button1.Location = new Point(52, 270);
             button1.Name = "button1";
             button1.Size = new Size(110, 34);
             button1.TabIndex = 8;
@@ -151,13 +141,23 @@
             // 
             // button3
             // 
-            button3.Location = new Point(52, 370);
+            button3.Location = new Point(52, 384);
             button3.Name = "button3";
             button3.Size = new Size(102, 43);
             button3.TabIndex = 10;
             button3.Text = "Очистити";
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.Image = Properties.Resources.photo_9_2025_04_03_22_09_58;
+            pictureBox3.Location = new Point(300, 39);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(313, 428);
+            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox3.TabIndex = 7;
+            pictureBox3.TabStop = false;
             // 
             // Form1
             // 
@@ -193,9 +193,9 @@
         private Label label5;
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
-        private PictureBox pictureBox3;
         private Button button1;
         private Button button2;
         private Button button3;
-        }
+        private PictureBox pictureBox3;
+    }
 }
